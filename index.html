@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign-In-Up</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Teko&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+    <script
+      src="https://kit.fontawesome.com/21926fdff9.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="form-box">
+        <h1 id="title">Sign Up</h1>
+        <form>
+          <div class="input-group">
+            <div class="input-field" id="nameField">
+              <i class="fa-regular fa-user"></i>
+              <input type="text" placeholder="Name" />
+            </div>
+
+            <div class="input-field">
+              <i class="fa-regular fa-envelope"></i>
+              <input type="email" placeholder="E-mail" />
+            </div>
+
+            <div class="input-field">
+              <i class="fa-solid fa-lock"></i>
+              <input type="password" placeholder="Password" />
+            </div>
+            <p>Forgot your password?<a href="#">Click Here!</a></p>
+          </div>
+          <div class="btn-field">
+            <button type="button" class="active" id="signupBtn">Sign Up</button>
+            <button type="button" class="disable" id="signinBtn">
+              Sign In
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
